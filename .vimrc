@@ -1,3 +1,4 @@
+colorscheme habamax 
 " Disable compatibility with vi which can cause unexpected issues.
 set nocompatible
 
@@ -12,6 +13,7 @@ filetype indent on
 
 " Turn on syntax highlighting.
 syntax on
+
 
 " Configs
 set number
@@ -40,6 +42,7 @@ let mapleader = " "
 nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
 nnoremap <leader><leader>q :q!<CR>
+nnoremap <leader><leader>w :wq<CR>
 
 nnoremap <leader>j o<esc>
 nnoremap <leader>k O<esc>
